@@ -1,0 +1,16 @@
+#Brand{
+    font-size: 40px;
+    font-family: serif;
+}
+#name{
+    font-size: 35px;
+}
+#Desc{
+    font-size: 15px;
+}
+#price{
+    font-size: 25px;
+}
+#Image{
+    width: 400px;
+}

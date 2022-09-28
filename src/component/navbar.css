@@ -1,0 +1,100 @@
+.container{
+    margin: 0;
+}
+.row{
+    width: 100%;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-shadow: 1px 2px 2px red;
+    padding-left: 5px;
+    margin-top: -10px;
+}
+
+.nav-link{
+    color:black;
+    text-decoration: none!important;
+}
+.nav-link:hover{
+    color:red;
+    text-shadow: 1px 1px 3px lightgreen;
+    font-size: large;
+}
+.nav-link:active{
+    text-decoration: none;
+}
+.fa-sign-in-alt,.fa-user-plus{
+   
+    padding:8px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.fa.fa-shopping-cart{
+    
+    padding:8px 10px 8px 10px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    position: relative;   
+}
+
+.fa-sign-in-alt:hover,.fa-user-plus:hover,.fa-shopping-cart:hover{
+    background-color: black;
+    color: white;
+}
+#count{
+    position: absolute;
+    top:0;
+    border-radius: 10px;
+    color: mintcream;
+    font-weight: 900;
+    padding:2px 10px 2px 10px;
+
+}
+.fa-facebook-f{
+    color: darkblue;
+    border:1px solid blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.fa-google{
+    color: red;
+    border:1px solid red;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.fa-linkedin-in{
+    color: darkblue;
+    border:1px solid blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+#about{
+    background-color: white;
+}
+#about .rounded-circle{
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px blue;
+}
+#about span{
+    color: sienna;
+    font-weight: 600;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+@media (max-width: 767px) {
+    .navbar-brand{
+        font-size: 25px;
+    }
+   
+}

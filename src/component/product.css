@@ -1,0 +1,72 @@
+.container{
+    padding:12px 40px 12px 40px;
+}
+.card{
+    height:460px!important;
+    width: 300px;
+    border-radius: 20px;
+    margin:40px;
+    transition: all 0.5 ease;   
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    margin:20px;
+}
+.card-header{
+    border-radius: 20px!important;
+    margin-top: 10px;
+    position: relative;
+}
+#wish{
+    position:absolute;
+    right:4px;
+    font-size: 25px;
+    color: darkred;
+    border: hidden;
+}
+#Delivery{
+    display: inline-block;
+    color: firebrick;
+}
+.card-header img.card-image-top{
+    padding-top: 20px; 
+}
+.card-body #name{
+    font-size: 13px;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+.card-body #Price{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 3px;
+    
+}
+
+.card-body #rating{
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:1px;
+    padding-left:3px;
+    padding-right: 3px;
+}
+#rating .fa-star{
+    color:gold;
+    text-shadow: 1px 1px 1px black;
+}
+#cart{
+    margin-top: 10px;
+    text-align: center; 
+    clear: both;
+}
+#Title{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px darkred;
+    text-transform: uppercase;
+}
