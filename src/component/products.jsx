@@ -1,9 +1,11 @@
 import './product.css';
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
+import 'swiper/swiper.min.css';
+import 'swiper/modules/free-mode/free-mode.min.css';
+import 'swiper/modules/navigation/navigation.scss';
+import 'swiper/modules/thumbs/thumbs.min.css';
+
 import { NavLink } from "react-router-dom";
 import { WATCHDATA } from '../shared/watchdata';
 import { PHONEDATA } from '../shared/phonedata';
