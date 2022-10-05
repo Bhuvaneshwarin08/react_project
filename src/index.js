@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import "swiper/css/bundle";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
 import {BrowserRouter} from 'react-router-dom';
 import './index.css';
 import App from './App';
